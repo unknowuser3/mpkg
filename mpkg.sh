@@ -23,7 +23,7 @@ if [ "$1" = "install" ]; then
     if [ -f "$2" ]; then
 	echo "Baixado!"
 	chmod 775 "$2" 2>/dev/null
-	mv "$2" /bin/
+	mv "$2" /usr/bin/
 	echo "'$2' Instalado com sucesso!"
     else
 	echo "Erro ao tentar baixar!"
